@@ -1,0 +1,10 @@
+
+a=1000
+multiplos=set()
+for i in range(a): 
+    if i % 3 == 0: 
+        multiplos.add(i)
+    elif i % 5 == 0:
+        multiplos.add(i)
+suma= sum(multiplos)
+print(suma)
